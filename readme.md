@@ -17,7 +17,7 @@ value: "\n"
 
 3. - Command :
 P4Runtime sh >>> table_entry["fec_table"](action = "push_mpls").insert()
-"---------------------------------------------------------------------------"
+- Output :
 P4RuntimeWriteException                   Traceback (most recent call last)
 <ipython-input-19-1086f3781ccf> in <module>
 ----> 1 table_entry["fec_table"](action = "push_mpls").insert()
